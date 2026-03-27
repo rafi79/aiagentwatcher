@@ -8,9 +8,9 @@ if (-not (Test-Path .git)) {
 
 # Add the remote repository
 Write-Host "Adding remote repository..." -ForegroundColor Green
-git remote add origin https://github.com/rafi79/aiagentwatcheri.git 2>$null
+git remote add origin https://github.com/rafi79/aiagentwatcher.git 2>$null
 if ($LASTEXITCODE -ne 0) {
-    git remote set-url origin https://github.com/rafi79/aiagentwatcheri.git
+    git remote set-url origin https://github.com/rafi79/aiagentwatcher.git
 }
 
 # Add all files

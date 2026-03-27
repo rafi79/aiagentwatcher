@@ -8,7 +8,7 @@ fi
 
 # Add the remote repository
 echo "Adding remote repository..."
-git remote add origin https://github.com/rafi79/aiagentwatcher.git 2>/dev/null || git remote set-url origin https://github.com/rafi79/aiagentwatcheri.git
+git remote add origin https://github.com/rafi79/aiagentwatcher.git 2>/dev/null || git remote set-url origin https://github.com/rafi79/aiagentwatcher.git
 
 # Add all files
 echo "Adding files..."

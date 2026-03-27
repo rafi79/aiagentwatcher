@@ -9,7 +9,7 @@ if not exist .git (
 
 REM Add the remote repository
 echo Adding remote repository...
-git remote add origin https://github.com/rafi79/aiagentwatcheri.git 2>nul || git remote set-url origin https://github.com/rafi79/aiagentwatcheri.git
+git remote add origin https://github.com/rafi79/aiagentwatcher.git 2>nul || git remote set-url origin https://github.com/rafi79/aiagentwatcher.git
 
 REM Add all files
 echo Adding files...
