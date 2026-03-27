@@ -1,12 +1,12 @@
-export default function Home() {
-  return null;
-}
+import Head from 'next/head'
 
-export async function getServerSideProps() {
-  return {
-    redirect: {
-      destination: '/index.html',
-      permanent: false,
-    },
-  };
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <meta httpEquiv="refresh" content="0; url=/index.html" />
+      </Head>
+      <div>Redirecting...</div>
+    </>
+  )
 }
