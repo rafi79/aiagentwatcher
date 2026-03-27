@@ -1,0 +1,97 @@
+# robots.txt for AI Agent Watcher
+# https://aiagentwatcher.vercel.app/robots.txt
+#
+# Agent names sourced from AI self-disclosures:
+# - MistralAI confirmed: "MistralAI-User"
+# - MCP Agent confirmed: "MCP Test Agent"
+# - Qwen confirmed: "Qwen3.5"
+# - Others from official documentation
+
+# ── COOPERATIVE AI CRAWLERS (allow portfolio, block private) ──
+
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Disallow: /api/detection-log
+Crawl-delay: 2
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Disallow: /api/detection-log
+Crawl-delay: 2
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: MistralAI-User
+Allow: /
+Allow: /llms.txt
+Disallow: /api/detection-log
+Crawl-delay: 2
+
+User-agent: MCP Test Agent
+Allow: /
+Allow: /llms.txt
+Disallow: /api/detection-log
+
+User-agent: Qwen3.5
+Allow: /
+Allow: /llms.txt
+Disallow: /api/detection-log
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: GoogleOther
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /api/detection-log
+
+User-agent: YouBot
+Allow: /
+Disallow: /api/detection-log
+
+# ── SEARCH ENGINE BOTS (allow everything) ──
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ── TRAINING DATA SCRAPERS (block content) ──
+# These scrape to train models without consent
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Common Crawl
+Disallow: /
+
+User-agent: GPTBot-Training
+Disallow: /
+
+# ── DEFAULT (allow everything else) ──
+
+User-agent: *
+Allow: /
+Disallow: /api/detection-log
+Disallow: /api/hp
+Crawl-delay: 1
+
+# ── SITEMAP ──
+Sitemap: https://aiagentwatcher.vercel.app/sitemap.xml

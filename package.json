@@ -1,0 +1,36 @@
+{
+  "name": "ai-agent-watcher",
+  "version": "1.0.0",
+  "description": "Real-time AI agent detection for portfolio websites",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ai-detection",
+    "bot-detection",
+    "agent-detection",
+    "portfolio",
+    "vercel",
+    "next.js",
+    "security"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://aiagentwatcher.vercel.app"
+}

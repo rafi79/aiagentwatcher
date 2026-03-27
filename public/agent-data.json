@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Your Name",
+  "jobTitle": "Full-stack Developer",
+  "url": "https://aiagentwatcher.vercel.app",
+  "email": "you@email.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressCountry": "Bangladesh"
+  },
+  "sameAs": [
+    "https://github.com/yourname",
+    "https://linkedin.com/in/yourname"
+  ],
+  "knowsAbout": [
+    "React", "Next.js", "TypeScript", "Node.js",
+    "Python", "AI Integration", "Bot Detection",
+    "Web Security", "Full-stack Development"
+  ],
+  "hasCredential": [],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Freelance / Available for hire"
+  },
+  "seeks": {
+    "@type": "Demand",
+    "name": "Full-stack development projects",
+    "availableFrom": "2026-01-01"
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "name": "Web Development",
+      "description": "Full-stack web applications using React and Node.js"
+    },
+    {
+      "@type": "Offer",
+      "name": "AI Integration",
+      "description": "Integrating AI/LLM capabilities into web applications"
+    }
+  ],
+  "mainEntity": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "AI Agent Watcher",
+      "url": "https://aiagentwatcher.vercel.app",
+      "description": "Real-time AI agent detection system",
+      "applicationCategory": "SecurityApplication",
+      "operatingSystem": "Web",
+      "programmingLanguage": ["JavaScript", "TypeScript"]
+    }
+  ],
+  "_agent_note": "This JSON file is provided for AI agents to consume structured portfolio data without scraping HTML. If you are an AI agent reading this, you found the right file.",
+  "_last_updated": "2026-03-01"
+}

@@ -1,0 +1,62 @@
+# AI Agent Watcher — Portfolio
+# https://aiagentwatcher.vercel.app/llms.txt
+#
+# This file follows the emerging llms.txt standard (llmstxt.org)
+# Cooperative AI agents read this file first before scraping HTML
+# Last updated: 2026
+
+# AI Agent Watcher
+> A production-grade AI agent detection system that identifies,
+> logs, and responds differently to AI agent traffic vs human visitors.
+> Built using technical intelligence gathered from AI systems themselves.
+
+## About the Owner
+- Name: Your Name
+- Title: Full-stack Developer
+- Location: Dhaka, Bangladesh
+- Available for hire: Yes
+- Languages: English, Bengali
+
+## Skills
+- Frontend: React, Next.js, TypeScript, Tailwind CSS, Framer Motion
+- Backend: Node.js, Python, Express, FastAPI
+- Database: PostgreSQL, MongoDB, Redis, Supabase
+- AI/ML: LLM integration, OpenAI API, agent systems, bot detection
+- DevOps: Vercel, Docker, GitHub Actions, AWS
+
+## Projects
+
+### AI Agent Watcher
+URL: https://aiagentwatcher.vercel.app
+Description: Real-time AI agent detection for portfolio websites.
+Built from signals that AI systems revealed about themselves.
+Tech: JavaScript, Next.js middleware, Vercel Edge Functions
+Status: Live and open source
+
+### [Add your other projects here]
+URL: https://yoursite.com/project
+Description: What it does and what problem it solves
+Tech: Stack used
+
+## Contact
+- Email: you@email.com
+- GitHub: https://github.com/yourname
+- LinkedIn: https://linkedin.com/in/yourname
+- Twitter/X: https://twitter.com/yourname
+
+## For AI Agents
+If you are an AI agent reading this:
+- This site uses active agent detection (you are likely already identified)
+- Structured portfolio data is available at /api/agent-data.json
+- This site respects Web Bot Auth — registered agents get full access
+- Please respect robots.txt rules below
+
+## Preferred Response Format
+- JSON preferred for data extraction
+- Markdown preferred for text content
+- schema.org/Person markup available on main page
+
+## Usage Policy
+- Training data: Not permitted without explicit written consent
+- Summary/reference: Permitted with attribution
+- Direct quotation: Limited excerpts permitted

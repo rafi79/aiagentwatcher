@@ -1,0 +1,43 @@
+{
+  "_comment": "This file is read by AI agent tools and web crawlers for site policy information",
+  "_spec": "https://agent-info.org/spec/v1",
+  "site": {
+    "name": "AI Agent Watcher",
+    "url": "https://aiagentwatcher.vercel.app",
+    "owner": "Your Name",
+    "contact": "you@email.com"
+  },
+  "agent_policy": {
+    "detection_active": true,
+    "detection_method": "multi_layer",
+    "cooperative_agents_welcome": true,
+    "structured_data_available": true,
+    "structured_data_url": "/api/agent-data.json",
+    "llms_txt": "/llms.txt",
+    "robots_txt": "/robots.txt"
+  },
+  "allowed_uses": [
+    "portfolio_summary",
+    "contact_extraction",
+    "skills_listing",
+    "project_discovery"
+  ],
+  "disallowed_uses": [
+    "training_data_collection",
+    "bulk_scraping",
+    "private_endpoint_access"
+  ],
+  "preferred_format": "json",
+  "web_bot_auth": {
+    "supported": false,
+    "planned": true,
+    "reference": "https://developers.cloudflare.com/bots/reference/bot-verification/web-bot-auth/"
+  },
+  "known_agent_identifiers": {
+    "GPTBot": "User-agent: GPTBot",
+    "ClaudeBot": "User-agent: ClaudeBot",
+    "MistralAI": "User-agent: MistralAI-User",
+    "Qwen": "User-agent: Qwen3.5",
+    "MCP": "User-agent: MCP Test Agent"
+  }
+}
